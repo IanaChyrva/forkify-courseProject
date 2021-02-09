@@ -1,0 +1,20 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Iana Chyrva",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.32.5"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.0.0-alpha.3",
+    "fractional": "^1.0.0"
+  }
+}
